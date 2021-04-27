@@ -7,7 +7,6 @@ function track() {
     }
 }
 
-
 // write a function that keeps track of how many times it is called
 
 const instance1 = track(); // making an instance doesnot reset the value of count 

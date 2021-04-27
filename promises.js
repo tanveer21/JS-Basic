@@ -4,18 +4,17 @@ const promiseObj = new Promise(function(resolve, reject) {
 
 promiseObj
 .then(function(res) {
-console.log('=====>', res);
 return 6;
 })
 .catch(function(err) {
-console.log('1catch', err);
+console.log(err);
 })
 .then(function(res) {
-console.log('res', res);
+console.log(res);
 return 6;
 })
 .catch(function(err) {
-console.log('sssssss', err);
+console.log(err);
 })
 
 

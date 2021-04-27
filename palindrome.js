@@ -5,8 +5,8 @@
 
 
 function palindrome(str) {
-    //str = str.replace(/\W/g, '').toLowerCase();
+    // str = str.replace(/\W/g, '').toLowerCase();
     const tempStr = str.split("").reverse().join('');
     return (str === tempStr)
 }
-console.log(palindrome("JKJ"))
+console.log(palindrome("A car, a man, a maraca"))
