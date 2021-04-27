@@ -20,3 +20,6 @@ Benefits of using Use strict
 - Dissallows duplicate parameters value
 - makes eval() safer
 - throws error on invalid usage of delete
+         The delete operator (used to remove properties from objects) cannot be used on non-configurable properties of the object. Non-strict code will fail silently when an attempt is made to delete a non-configurable property, whereas strict mode will throw an error in such a case.
+
+*/
